@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <h3 >BÀI 1</h3>
+  <center>
+    <h2 class="class">
+      GIẢI PHƯƠNG TRÌNH BẬC I </h2>
+      <div> <input type="Text" placeholder="Hệ số a"/> <br> </div>
+      <div> <input type="Text" placeholder="Hệ số b"/> <br> </div>
+        <button class="button">Giải Phương Trình</button>
+   
+     <div style= "font-family:arial;color:black; font-size:17px"> KẾT QUẢ </div>
+  </center> 
+    
+  <h3 >BÀI 2</h3>  
+  <center>
+   <h2 class="room">
+      ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM </h2>
+    <div class="night">
+      Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập bằng tiếng việt có dấu</div>
+    <div class="night"> Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm<i>(nếu có)</i>
+    </div> 
+  <div>
+    <form style="background:silver; border: solid 0.5px; padding:100px 100px;background-size: cover; width: 1000px; height: auto; ">
+    <input style="padding:14px 40px" type="text" value="" id="name" placeholder="Họ và tên" size="30"/> &emsp;
+    <input style="padding:14px 40px" type="text" value="" id="number"  placeholder="Mã thẻ" size="30"/> <br>
+      <h1>
+      </h1>
+    <input style="padding:14px 40px" type="text" value="" id="phonenumber" placeholder="Số điện thoại" size="30"/> &emsp;
+    <input style="padding:14px 40px" type="text" value="" id="mail"  placeholder="E-mail" size="30"/> <br>
+      <h1>
+      </h1>
+      <select style="padding:14px 80px" >  
+      <option value="">Chọn loại khách hàng</option>
+     <option value="VVIP">VVIP</option>
+    </select> 
+       &emsp;
+    <input style="padding:14px 40px" type="text" value="" id="bill" placeholder="Mã hóa đơn" size="30"/> <br>
+      <h1>
+      </h1>
+    &ensp;<input style="padding:50px 120px; width:650" type="text" value="" id="comment" placeholder="Nhập chi tiết mô tả" size="60%"/> <br> &emsp;
+      <h1>
+      </h1>
+      <button style="background:lightblue;padding:14px 40px; float:left; margin-left:180px" type="button" id="submit" onclick="abc()">
+    Gửi góp ý <img width="25" height="25" src="https://cdn.glitch.global/f31e30bf-026d-4b86-8163-c274dcbb7017/icons8-messenger-50.png?v=1710354335078" align="middle"/>
+     </button>
+    </form>
+</div>
+  </center>  
+  
+   <h3 >BÀI 3</h3> 
+  <h3 style="color:blue; margin-left:50px">
+    LIÊN HỆ
+  </h3>
+  <hr width="100%" color="red"/>
+  <center>
+  <table>
+    <tr>
+      <td style="font-size:25px">Thông tin</td> 
+      <td style="color:violet; font-size:24px">Hãy liên lạc với chúng tôi bất cứ khi nào!!!</td>
+    </tr>
+    <tr>
+      <td> <img width="25" height="25" src="https://cdn.glitch.global/f31e30bf-026d-4b86-8163-c274dcbb7017/icons8-address-50.png?v=1710366148270" align="middle"/> Kp.6, P.Linh Trung, Tp.Thủ Đức, Tp.HCM</td>
+       <td> <input style="padding:10px 20px" type="Text" value="" placeholder="Họ và tên" size="100"/> </td>
+    </tr>
+    <tr>
+      <td> <img width="25" height="25" src="https://cdn.glitch.global/f31e30bf-026d-4b86-8163-c274dcbb7017/icons8-letter-50.png?v=1710366464445" align="middle"/> info@uit.edu.vn </td>
+      <td> <input style="padding:10px 20px" type="Text" value="" placeholder="Địa chỉ e-mail" size="100"/> </td>
+    </tr>
+    <tr>
+      <td> <img width="25" height="25" src="https://cdn.glitch.global/f31e30bf-026d-4b86-8163-c274dcbb7017/icons8-telephone-50.png?v=1710366653875" align="middle"/> +84 28 372 52002</td>
+      <td> <input style="padding:10px 20px" type="Text" value="" placeholder="Tiêu đề bài viết" size="100"/> </td>
+    </tr>
+    <tr>
+      <td></td>
+       <td> <input style="padding:100px 20px" width="500px" type="Text" value="" placeholder="Nội dung cần gửi" size="100"/> </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td> <button style="background:lightblue;padding:10px 20px; color: white" type="button" onclick="abc()">
+    Gửi tin nhắn  />
+     </button> </td>
+    </tr>
+  </table>
+    </center>
+  
+   <h3 >BÀI 4</h3> 
+  <center>
+  <form style="background: silver; border: solid 0.5px; padding:100px 100px;background-size: cover;  ">
+    <h2 style="color:white">
+      TÍNH CHỈ SỐ BMI
+    </h2>
+    Nhập cân nặng? <br> 
+    <input type="text" id="kg" value=""/> <br/>
+    Nhập chiều cao? <br>
+    <input type="text" id="m" value=""/> <br/>
+    <span id="BMI"></span> <br/>
+    Chọn loại tuổi?<br>
+    <select >  
+    <option value="Trung niên">Trung niên</option>
+    <option value="Trung niên, Già lớn tuổi">Trung niên, Già lớn tuổi</option>
+    <option value="Già, Lớn tuổi"> Già, Lớn tuổi </option>
+    </select> <br>
+    <h1></h1>
+    <button style="background:lightblue;padding:10px 20px; color: white" type="button" id="tinhBMI" >
+    TÍNH BMI
+     </button>
+  </form>
+    <script>
+    var button = document.getElementById('tinhBMI');
+    tinhBMI.onclick = function(){
+        var a = document.getElementById('kg').value;
+        var b = document.getElementById('m').value;
+        var BMI= a/(b*b)
+        if (a == "" || b == ""){
+            alert("Vui lòng nhập dữ liệu");
+        }
+        else {
+            a = Number(a);
+            b = Number(b);
+            Tinh_chi_so_BMI(a, b);
+        }
+    };
+ 
+    function Tinh_chi_so_BMI(a, b)
+    {
+        
+        if (BMI<18.5){
+            alert('Dưới chuẩn');
+        }
+        else if (BMI>=18.5 && BMI<=24.9){
+            alert('Bình thường');
+        }
+        else if (BMI>=25 && BMI<=29.9){
+            alert('Thừa cân');
+        }
+        else if (BMI>=30 && BMI<=34.9) {
+            alert('Béo phì cấp độ I');
+        }
+        else if (BMI>=35 && BMI<=39.9) {
+            alert('Béo phì cấp độ II');
+        }
+        else {alert('Béo phì cấp độ III')}
+    }
+</script>
+  </center>
+   <h3 >BÀI 5</h3> 
+  <center>
+    <form style="background:black; width: 400px; height: auto;">
+        <h3 style="color:white; margin-right:180 "> />Log in</h3>
+        <input type="text" placeholder="Username" size="30"/><br>
+        <input type="password" placeholder="Password" size="30" /><br>
+       <h3></h3>
+        <input type="submit" value="ĐĂNG NHẬP">
+      <script>
+            function showPasswordConfirmation() {
+                var isShowPassword = confirm("Bạn muốn hiện mật khẩu?");
+                if (isShowPassword) {
+                    document.getElementById("Password").type = "text";
+                }
+                return true;
+            }
+        </script>
+ </form>
+  </center>
+   <h3 >BÀI 6</h3> 
+  <center>
+    <form style="background:pink; width: 500px; height: auto;">
+        <h3 > Log In</h3>
+       <p>
+         Login here using your usename and password
+      </p>
+        <input type="text" placeholder="Username" size="30" padding="14px 28px"/><br>
+      <h3></h3>
+        <input type="password" placeholder="Password" size="30" padding="14px 28px"/><br>
+       <h3></h3>
+        <input type="submit" value="Log in" size="30" padding="14px 28px"/>
+      <h3></h3>
+      <table>
+        <tr>
+        <td><a href="#">Forgot Password</a></td>
+        <td><button style="background:aqua; padding: 14px 30px">
+          Sign Up
+          </button></td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>
+  
